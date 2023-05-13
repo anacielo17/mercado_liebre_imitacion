@@ -12,7 +12,7 @@ body{
 }
 
 header {
-    background-color: yellow;
+    background-color: rgba(255, 218, 0, 0.81);;
     padding: 10px;
     color : black; 
     font-family: 'Roboto', sans-serif;
@@ -39,8 +39,16 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
+    border: none;
+    background-color: whitesmoke;
+    
 
 }
+.barra-busqueda input, button{
+    border: none;
+    background-color: whitesmoke;
+}
+
 .burger-menu i{
     color: white;
     padding: 10px;
@@ -160,7 +168,7 @@ main section article i{
     top: -15px;
 
 }
-main section article i:hover{
+main section article:hover i{
     transform: rotate(270deg)
 
 }
@@ -170,6 +178,10 @@ main section article i:hover{
     padding: 15px;
     box-sizing: border-box;
     /* width: 90vw; */
+}
+.banner{
+    width: 100%;
+    height: 100px;
 }
 
 /* --------------------------FORM------------------------------------
@@ -237,7 +249,7 @@ main section article i:hover{
         justify-content: space-between;
     }
     .tarjeta{
-
+        font-size: 15px;
         text-align: right;
     }
     .main-navbar {
@@ -266,6 +278,9 @@ main section article i:hover{
     }
     .boton2-formulario{
         width: 40%;
+    }
+    .banner{
+        height: 200px;
     }
     
 
@@ -312,6 +327,9 @@ main section article i:hover{
         .footer-general .icono:hover{
             color: green
 
+        }
+        .barra-busqueda {
+            width: 35%;
         }
     } 
             
